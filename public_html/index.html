@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Assignment 1</title>
+        <script type="text/javascript" src="script/script.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body onload="startup();">
+        <header>Bookspace</header>
+        <nav>
+            <a href="A2Content/a2.html" class="x">Assignment 2</a><br>
+            <a href="A3Content/a3.html" class="x">Assignment 3</a><br>
+            <a href="A4Content/a4.html" class="x">Assignment 4</a>
+
+        </nav>
+
+        <main id="main1">
+            <figure>
+                <img src="images/exorcist.jpg" width="180" height="180" onclick="orderMovie();">
+                <figcaption id="x" class="o" onmouseover="describe();" onmouseout="reset();">The Exorcist by William Peter Blatty </figcaption>
+            </figure>
+                    <figure>
+                <img src="images/ps.jpg" width="180" height="180" onclick="orderMovie();">
+                <figcaption id="y" class="o" onmouseover="describe2();" onmouseout="reset2();"> P.S I Love You by Cecelia Ahern </figcaption>
+            </figure>
+            
+     <figure>
+                <img src="images/java.jpg" width="180" height="180" onclick="orderMovie();">
+                <figcaption id="z" class="o" onmouseover="describe3();" onmouseout="reset3();">Java 2: The Complete Reference, Fifth Edition By Patrick Naughton and Herbert Schildt</figcaption>
+            </figure>
+     <figure>
+                <img src="images/bram1.jpg" width="180" height="180" onclick="orderMovie();">
+                <figcaption id="q" class="o" onmouseover="describe4();" onmouseout="reset4();">Dracula By Bram Stoker </figcaption>
+            </figure>
+
+
+        </main>
+        <section id="sec1" >
+            <p id="bookorder"  onclick="process();">Your order is: 
+                
+            </p>
+        </section>
+        
+    </body>
+    <footer>
+        Bookspace<br>
+        Founded in 2019<br>
+        199 Main Street, Brampton
+      
+        </footer>
+</html>

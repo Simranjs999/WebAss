@@ -1,0 +1,59 @@
+a{
+    text-decoration: none;
+}
+body{
+    width: 50vw;
+    margin: auto;
+    background:radial-gradient(yellow,orange);
+}
+header{
+background-color: cyan;
+height: 10vh;
+color:maroon;
+padding-left: 3px;
+text-align: center;
+font-size: 36px;
+border: 2px solid black;
+}
+
+form{
+    border: 2px solid black;
+    
+}
+
+textarea{
+    height: 50vh;
+    width: 40vw;
+    
+}
+
+fieldset{
+    color: maroon;
+}
+legend{
+    color: red;
+}
+#one{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: cyan;
+    color: maroon;
+    padding: 3px;
+    text-align: center;
+    border: 2px solid red;
+}
+#two{
+    text-decoration: none;
+   
+}
+a:hover{
+    color: red;
+}
+footer{
+    background-color: maroon;
+    color: gold;
+    height:10vh;
+    border:2px solid yellow;
+    padding:5px;
+}

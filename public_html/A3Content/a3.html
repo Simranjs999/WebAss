@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script type="text/javascript" src="script/script.js"></script>
+        
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body>
+        <header id="one">Bookspace</header>
+        <form name="Frmfirst" action="Contenta3/a3.php">
+             <fieldset id="personal">
+                <legend>Contact Block</legend>
+                Enter First Name: <input type="text" name="txtfname" placeholder="Simranjeet" maxlength="30" required=""><br>
+                Enter  Last Name: <input type="text" name="txtlname" placeholder="Singh" maxlength="30" required=""><br>
+                Enter  E-Mail   : <input type="email" name="txtemail" placeholder="simranrox34@gmail.com" required=""><br>
+                Enter  Shipping Address: <input type="text" name="ship"  maxlength="30" required="" placeholder="1 Main St."><br>
+
+                 </fieldset>
+            <fieldset id="Select">
+                <legend>Order Block</legend>
+                Select a transaction method:<input list="pay-methods" name="methods" placeholder="Select A method">
+           <datalist id="pay-methods">
+           <option value="Credit Card">Credit Card</option>
+           <option value="Debit Card">Debit Card</option>
+    
+           <option value="Cheque">Cheque</option>
+  
+           </datalist>
+                <fieldset>
+                    <legend>Select An Item </legend>
+                <input type="checkbox" name="chkSport" value="The Exorcist" checked="">The Exorcist<br>
+                <input type="checkbox" name="chkSport" value="P.S I Love You" >P.S I Love You<br>
+                <input type="checkbox" name="chkSport" value="Java 2" >Java 2<br>
+                <input type="checkbox" name="chkSport" value="Bram Stoker's Dracula" checked="">Bram Stoker's Dracula<br>
+                </fieldset>
+                <fieldset>
+                    <legend>Select A Shipment Method</legend>
+                <input type="radio" name="radshipment" value="Truck" checked="">Truck<br>
+                <input type="radio" name="radshipment" value="Air" >Air<br>
+                <input type="radio" name="radshipment" value="Mail" >Mail<br>
+                </fieldset>
+                </fieldset>
+            <fieldset>
+                <legend>Summary Block</legend>
+                <textarea final name="txtOrder" row="50" col="50">
+                </textarea><br>
+                <input type="submit" value="submit">
+                <button type="reset"> <a href="../index.html">Cancel</a></button>
+                <input type="button" value="order" onclick="displayorder()">
+                
+            </fieldset>
+            
+        </form>
+         <footer>
+        Bookspace<br>
+        Founded in 2019<br>
+        199 Main Street, Brampton
+      
+        </footer>
+    </body>
+</html>
